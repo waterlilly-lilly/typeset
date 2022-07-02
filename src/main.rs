@@ -1,10 +1,10 @@
-use chrono::{DateTime, NaiveDateTime};
+use chrono::NaiveDateTime;
 use html5ever::tendril::SliceExt;
-use nipper::{Document, Node, Selection};
+use nipper::{Document, Selection};
 use rayon::prelude::*;
 use regex::Regex;
 use serde::Deserialize;
-use std::borrow::{Borrow, Cow};
+
 use std::env::current_dir;
 use std::fs;
 use std::fs::{read_to_string, File};
@@ -68,8 +68,8 @@ fn main() -> Result<(), Error> {
     let index = Document::from(read_to_string(index_file)?.as_str());
     for post in &posts {
         let template_html = Document::from(template.as_str());
-        let mut output_html = template_html;
-        let mut typeset_elements = output_html.select("meta[typeset]");
+        let output_html = template_html;
+        let typeset_elements = output_html.select("meta[typeset]");
         for mut element in typeset_elements.iter() {
             match element.attr("typeset").unwrap().to_string().as_str() {
                 "page-title" => {
@@ -78,7 +78,7 @@ fn main() -> Result<(), Error> {
                         .unwrap()
                         .replace("$", post.title.as_str());
 
-                    element.replace_with_html(format!(r#"<title>{}</title>"#, title));
+                    element.replace_with_html(format!(r#"<title>{title}</title>"#));
                 }
                 "title" => {
                     element.replace_with_html(post.title.to_string());
@@ -94,7 +94,7 @@ fn main() -> Result<(), Error> {
             }
         }
         let output = output_html.html().to_string();
-        let path = out_path.join(PathBuf::from(format!("{}{}", &post.id, ".html")));
+        let path = out_path.join(PathBuf::from(format!("{}.html", &post.id)));
         let mut file = File::create(path)?;
         file.write_all(output.as_bytes())?;
     }
@@ -104,7 +104,7 @@ fn main() -> Result<(), Error> {
         "Found {} post lists",
         index.select(r#"meta[typeset="index-entry""#).length()
     );
-    for mut index_ref in index.select(r#"meta[typeset="index-entry""#).iter() {
+    for index_ref in index.select(r#"meta[typeset="index-entry""#).iter() {
         let n = index_ref
             .attr("content")
             .unwrap_or("".to_tendril())
@@ -119,11 +119,7 @@ fn main() -> Result<(), Error> {
             nth_children(parent.parent(), n)
                 .select(r#"meta[typeset="index-entry""#)
                 .replace_with_html(
-                    format!(
-                        "<a href=\"./{}.html\">{}</a>\n",
-                        post.id, post.title
-                    )
-                    .as_str(),
+                    format!("<a href=\"./{}.html\">{}</a>\n", post.id, post.title).as_str(),
                 );
         }
         parent.parent().children().iter().nth(0).unwrap().remove();
