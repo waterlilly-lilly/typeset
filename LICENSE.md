@@ -1,14 +1,12 @@
 Typeset
 Copyright (c) Lilly Rosaline 2021
 
-COOPERATIVE NON-VIOLENT PUBLIC LICENSE v7+
-
 THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS
 COOPERATIVE NON-VIOLENT PUBLIC LICENSE (\"LICENSE\"). THE WORK IS
 PROTECTED BY COPYRIGHT AND ALL OTHER APPLICABLE LAWS. ANY USE OF THE
 WORK OTHER THAN AS AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS
 PROHIBITED. BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED IN THIS
-LICENSE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE.TO THE
+LICENSE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE
 EXTENT THIS LICENSE MAY BE CONSIDERED TO BE A CONTRACT, THE LICENSOR
 GRANTS YOU THE RIGHTS CONTAINED HERE IN AS CONSIDERATION FOR ACCEPTING
 THE TERMS AND CONDITIONS OF THIS LICENSE AND FOR AGREEING TO BE BOUND BY
@@ -129,9 +127,9 @@ A Network Service is the use of a piece of Software to interpret or
 modify information that is subsequently and directly served to users
 over the Internet.
 
-To Discriminate is the use of a piece of Software to interpret or modify
-information that is subsequently and directly served to users over the
-Internet.
+To Discriminate is use of a work to differentiate between humans in a
+such a way which prioritizes some above others on the basis of percieved
+membership within certain groups.
 
 Hate Speech is Communication or any form of expression which is solely
 for the purpose of expressing hatred for some group or advocating a form
@@ -210,32 +208,6 @@ from the Collection any credit as requested. If You create an
 Adaptation, upon notice from any Licensor You must, to the extent
 practicable, remove from the Adaptation any credit as requested.
 
-## Commercial Restrictions
-
-You may not exercise any of the rights granted to You in the above
-section in any manner that is primarily intended for or directed toward
-commercial advantage or private monetary compensation unless you meet
-the following requirements.
-
-i.  You are a worker-owned business or worker-owned collective.
-
-ii. after tax, all financial gain, surplus, profits and benefits
-produced by the business or collective are distributed among the
-worker-owners unless a set amount is to be allocated towards
-community projects as decided by a previously-established consensus
-agreement between the worker-owners where all worker-owners agreed.
-
-iii. You are not using such rights on behalf of a business other than
-those specified in (i) or (ii) above, nor are using such rights as
-a proxy on behalf of a business with the intent to circumvent the
-aforementioned restrictions on such a business.
-
-The exchange of the Work for other copyrighted works by means of digital
-file-sharing or otherwise shall not be considered to be intended for or
-directed toward commercial advantage or private monetary compensation,
-provided there is no payment of any monetary compensation in connection
-with the exchange of copyrighted works.
-
 If the Work meets the definition of Software, You may exercise the
 rights granted in the license grant only if You provide a copy of the
 corresponding Source Code from which the Work was derived in digital
@@ -249,43 +221,39 @@ form, or You provide a URI for the corresponding Source Code to the
 Work, to any recipients of the data served or modified by the Web
 Service.
 
-Any use by a business that is privately owned and managed, and that
-seeks to generate profit from the labor of employees paid by salary or
-other wages, is not permitted under this license.
-
 ## 
 
 You may exercise the rights granted in the license grant for any
 purposes only if:
 
 i.  You do not use the Work for the purpose of inflicting Bodily Harm on
-human beings (subject to criminal prosecution or otherwise) outside
-of providing medical aid or undergoing a voluntary procedure under
-no form of Coercion.
+    human beings (subject to criminal prosecution or otherwise) outside
+    of providing medical aid or undergoing a voluntary procedure under
+    no form of Coercion.
 
 ii. You do not use the Work for the purpose of Surveilling or tracking
-individuals for financial gain.
+    individuals for financial gain.
 
 iii. You do not use the Work in an Act of War.
 
 iv. You do not use the Work for the purpose of supporting or profiting
-from an Act of War.
+    from an Act of War.
 
 v.  You do not use the Work for the purpose of Incarceration.
 
 vi. You do not use the Work for the purpose of extracting, processing,
-or refining, oil, gas, or coal. Or to in any other way to
-deliberately pollute the environment as a byproduct of manufacturing
-or irresponsible disposal of hazardous materials.
+    or refining, oil, gas, or coal. Or to in any other way to
+    deliberately pollute the environment as a byproduct of manufacturing
+    or irresponsible disposal of hazardous materials.
 
 vii. You do not use the Work for the purpose of expediting,
-coordinating, or facilitating paid work undertaken by individuals
-under the age of 12 years.
+     coordinating, or facilitating paid work undertaken by individuals
+     under the age of 12 years.
 
 viii. You do not use the Work to either Discriminate or spread Hate
-Speech on the basis of sex, sexual orientation, gender identity,
-race, age, disability, color, national origin, religion, caste, or
-lower economic status.
+      Speech on the basis of sex, sexual orientation, gender identity,
+      race, age, disability, color, national origin, religion, caste, or
+      lower economic status.
 
 ## 
 
@@ -296,23 +264,23 @@ notices for the Work and provide, reasonable to the medium or means You
 are utilizing:
 
 i.  the name of the Original Author (or pseudonym, if applicable) if
-supplied, and/or if the Original Author and/or Licensor designate
-another party or parties (e.g., a sponsor institute, publishing
-entity, journal) for attribution (\"Attribution Parties\") in
-Licensor\'s copyright notice, terms of service or by other
-reasonable means, the name of such party or parties;
+    supplied, and/or if the Original Author and/or Licensor designate
+    another party or parties (e.g., a sponsor institute, publishing
+    entity, journal) for attribution (\"Attribution Parties\") in
+    Licensor\'s copyright notice, terms of service or by other
+    reasonable means, the name of such party or parties;
 
 ii. the title of the Work if supplied;
 
 iii. to the extent reasonably practicable, the URI, if any, that
-Licensor to be associated with the Work, unless such URI does not
-refer to the copyright notice or licensing information for the
-Work; and,
+     Licensor to be associated with the Work, unless such URI does not
+     refer to the copyright notice or licensing information for the
+     Work; and,
 
 iv. in the case of an Adaptation, a credit identifying the use of the
-Work in the Adaptation (e.g., \"French translation of the Work by
-Original Author,\" or \"Screenplay based on original Work by
-Original Author\").
+    Work in the Adaptation (e.g., \"French translation of the Work by
+    Original Author,\" or \"Screenplay based on original Work by
+    Original Author\").
 
 If any Licensor has sent notice to request removing credit, You must, to
 the extent practicable, remove any credit as requested. The credit
@@ -329,28 +297,6 @@ connection with, sponsorship or endorsement by the Original Author,
 Licensor and/or Attribution Parties, as appropriate, of You or Your use
 of the Work, without the separate, express prior written permission of
 the Original Author, Licensor and/or Attribution Parties.
-
-Non-waivable Compulsory License Schemes. In those jurisdictions in which
-the right to collect royalties through any statutory or compulsory
-licensing scheme cannot be waived, the Licensor reserves the exclusive
-right to collect such royalties for any exercise by You of the rights
-granted under this License
-
-Waivable Compulsory License Schemes. In those jurisdictions in which the
-right to collect royalties through any statutory or compulsory licensing
-scheme can be waived, the Licensor reserves the exclusive right to
-collect such royalties for any exercise by You of the rights granted
-under this License if Your exercise of such rights is for a purpose or
-use which is otherwise than noncommercial as permitted under Commercial
-Restrictions and otherwise waives the right to collect royalties through
-any statutory or compulsory licensing scheme.
-
-Voluntary License Schemes. The Licensor reserves the right to collect
-royalties, whether individually or, in the event that the Licensor is a
-member of a collecting society that administers voluntary licensing
-schemes, via that society, from any exercise by You of the rights
-granted under this License that is for a purpose or use which is
-otherwise than noncommercial as permitted under the license grant.
 
 Except as otherwise agreed in writing by the Licensor or as may be
 otherwise permitted by applicable law, if You Reproduce, Distribute or
